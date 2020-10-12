@@ -1,0 +1,611 @@
+/* file berikut merupakan css untuk mempercantik tampilan proyek */
+.bg-nav {
+  background-color: #50a8e0;
+}
+
+.navbar-brand {
+  font-size: 35px !important;
+}
+
+.nav-span {
+  font-size: 16px;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin-right: 50px;
+  color: white !important;
+}
+
+.button {
+  border-radius: 30px !important;
+  background-color: #ff8c00;
+  color: white;
+}
+
+/* Land1 */
+
+.land-1 .jumbotron {
+  background-image: url("assets/bg_header.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+}
+
+.land-1 .jumbotron .display-4 {
+  transform: rotate(-6deg);
+  color: white;
+  font-size: 6rem;
+  margin-top: 230px;
+  margin-bottom: 180px;
+  line-height: 2rem;
+  font-size: 22px;
+  padding-left: 50px;
+}
+
+/* Land2 */
+
+.land-2 .jumbotron {
+  height: 500px;
+  background-color: white;
+  background-image: url("assets/img_japan.png");
+  background-position: right bottom;
+  margin-bottom: 80px;
+  background-size: 280px;
+  background-repeat: no-repeat;
+}
+
+.text-head {
+  font-size: 12px;
+  text-align: justify;
+  writing-mode: vertical-rl;
+  height: 32em;
+  padding-left: 38px;
+}
+
+.text-color {
+  background-color: #ff8c00;
+}
+
+.line {
+  font-size: 15px;
+  margin-top: -15px;
+  background-color: #ff8c00;
+  height: 11em;
+}
+
+/* Land3 */
+.land-3 .jumbotron {
+  background-image: url("assets/bg_land.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right top;
+  margin-bottom: 75px;
+}
+
+.text-header-p {
+  margin-bottom: 0px;
+  margin-top: -70px;
+  font-size: 8px;
+}
+.text-header {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.text-header-q {
+  font-size: 20px;
+  margin-top: -50px;
+  color: white;
+  transform: rotate(-2deg);
+}
+
+.text-header-sc {
+  font-size: 50px;
+  margin-top: -50px;
+}
+
+.land-3 .card {
+  border: none;
+  margin-top: 10px;
+}
+
+.img-btn {
+  width: 80%;
+  margin-top: -5.1rem;
+  background-color: white;
+  color: black;
+  padding: 1.6rem !important;
+}
+
+/* Land4 */
+.land-4 .jumbotron {
+  background-image: url("assets/bg_land4.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: left top;
+}
+
+.land-4 .header {
+  font-size: 28px;
+  margin-top: -20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.land-4 .text-header-p {
+  font-size: 8px;
+}
+
+.land-4 .text-header-wr {
+  font-size: 50px;
+  margin-top: -50px;
+}
+
+.land-4 .text-left {
+  margin-top: -60px;
+  font-size: 20px;
+  color: white;
+  transform: rotate(-2deg);
+}
+
+.land-4 .text-right {
+  margin-top: -76px;
+}
+
+.land-4 .card {
+  border: none;
+}
+
+.img-btn-1,
+.img-btn-2,
+.img-btn-3 {
+  margin-top: -62px;
+  width: 55%;
+  background-color: white;
+  color: black;
+  padding: 1rem !important;
+}
+
+.bg-blue {
+  background-color: #647491;
+}
+
+footer {
+  margin-top: -33px;
+}
+
+/* Land5 */
+.land-5 .jumbotron {
+  background-image: url("assets/bg_land.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right top;
+  margin-top: 75px;
+}
+
+.land-5 .card {
+  border: none;
+  margin-top: 10px;
+}
+
+.land-5 .img-left {
+  margin-bottom: 10px;
+}
+
+.img-btn-a {
+  color: black;
+  width: 80%;
+  margin-top: -69px;
+  background-color: white;
+  padding: 1.2rem !important;
+}
+
+/* Land6 */
+
+.land-6 .jumbotron {
+  background-image: url("assets/bg_recruit.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 75px;
+}
+
+.land-6 span {
+  font-size: 30px;
+}
+
+.btn-btn {
+  background-color: white;
+  width: 18rem;
+  margin-bottom: 10px;
+}
+
+.btn-1 strong {
+  padding-left: 70px;
+}
+
+.btn-2 strong {
+  padding-left: 133px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn-btn-2,
+.btn-btn-1 {
+  width: 7.2rem;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.land-7 p {
+  margin-left: 20px;
+}
+
+/* Land7 */
+
+.land-7 .jumbotron {
+  background-image: url("assets/bg_land4.png");
+  background-position: center;
+  margin-top: 200px;
+}
+.bg-blue {
+  background-color: #235ba3;
+}
+
+.img-btn:hover,
+.img-btn-1:hover,
+.img-btn-2:hover,
+.img-btn-3:hover,
+.img-btn-a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Ipad */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Land1 */
+  .land-1 .jumbotron {
+    height: 600px;
+  }
+
+  .land-1 .jumbotron .display-4 {
+    margin-top: 100px;
+    margin-bottom: 220px;
+    line-height: 3.8rem;
+    font-size: 39px;
+    padding-left: 130px;
+  }
+
+  /* Land2 */
+
+  .land-2 .jumbotron {
+    height: 630px;
+    background-size: 500px;
+    margin-bottom: 120px;
+  }
+
+  .text-head {
+    font-size: 16px;
+    height: 16em;
+    padding-left: 98px;
+  }
+
+  .line {
+    font-size: 18px;
+    margin-top: -20px;
+  }
+
+  /* Land3 */
+
+  .land-3 .img-right {
+    margin-top: 50px;
+  }
+
+  .text-header {
+    font-size: 62px;
+  }
+  .text-header-p {
+    margin-top: -139px;
+    font-size: 18px;
+  }
+
+  .text-header-sc {
+    font-size: 120px;
+    margin-top: -100px;
+  }
+
+  .text-header-q {
+    font-size: 50px;
+    margin-top: -90px;
+  }
+
+  .text-header-q {
+    font-size: 26px;
+  }
+
+  .img-btn,
+  .img-btn-b {
+    width: 85%;
+  }
+
+  /*
+
+    /* Land4 */
+
+  .land-4 .img-left {
+    margin-top: 0px;
+  }
+
+  .land-4 .img-auto {
+    margin-top: 30px;
+  }
+
+  .land-4 .img-right {
+    margin-top: 60px;
+  }
+
+  .land-4 .header-p {
+    font-size: 18px;
+  }
+  .land-4 .header {
+    font-size: 62px;
+  }
+
+  .land-4 .text-header-wr {
+    font-size: 120px;
+    margin-top: -100px;
+  }
+
+  .land-4 .text-right {
+    margin-top: -138px;
+    margin-right: 0px;
+  }
+  .land-4 .text-left {
+    font-size: 26px;
+    margin-top: -110px;
+    margin-bottom: 50px;
+  }
+
+  .img-btn-1,
+  .img-btn-2,
+  .img-btn-3 {
+    width: 90%;
+  }
+
+  /* Land5 */
+  .land-5 .jumbotron {
+    margin-top: 50px;
+    height: 250px;
+  }
+
+  .land-5 .img-right {
+    margin-top: 50px;
+  }
+
+  .text-header {
+    font-size: 62px;
+  }
+  .text-header-p {
+    margin-top: -150px;
+    font-size: 18px;
+  }
+
+  .img-btn,
+  .img-btn-a {
+    width: 85%;
+  }
+
+  .img-btn-a {
+    width: 90%;
+  }
+
+  /* Land6 */
+  .land-6 .jumbotron {
+    margin-top: 200px;
+  }
+
+  .btn-btn {
+    width: 26rem;
+  }
+
+  .btn-btn {
+    width: 18rem;
+    margin-bottom: 0px;
+  }
+
+  .btn-1 strong {
+    padding-left: 70px;
+  }
+
+  .btn-2 strong {
+    padding-left: 135px;
+  }
+
+  .btn-btn-2,
+  .btn-btn-1 {
+    width: 7.2rem;
+    height: 70px;
+    margin-left: 0px;
+  }
+
+  .land-7 p {
+    margin-left: 0px;
+    font-size: 12px;
+  }
+}
+
+/* Des */
+@media (min-width: 1200px) {
+  .navbar-brand {
+    margin-left: 200px;
+  }
+
+  .navbar-nav .btn {
+    margin-right: 50px;
+  }
+  /* Land1 */
+  .land-1 .jumbotron {
+    height: 800px;
+  }
+
+  .land-1 .jumbotron .display-4 {
+    margin-top: 100px;
+    margin-bottom: 250px;
+    line-height: 8rem;
+    font-size: 62px;
+    padding-left: 160px;
+  }
+
+  /* Land2 */
+
+  .land-2 .jumbotron {
+    padding-top: 160px;
+    height: 980px;
+    margin-right: 60px;
+    background-size: 650px;
+    margin-bottom: 120px;
+  }
+
+  .text-head {
+    font-size: 30px;
+    height: 16em;
+    padding-left: 20px;
+    line-height: 53px;
+  }
+
+  .line {
+    font-size: 35px;
+    margin-top: -60px;
+  }
+
+  /* Land3 */
+  .land-3 .jumbotron {
+    margin-bottom: 180px;
+  }
+
+  .text-header {
+    font-size: 108px;
+  }
+
+  .text-header-p {
+    margin-top: -190px;
+    font-size: 16px;
+  }
+
+  .land-3 .img-left {
+    margin-top: 100px;
+    margin-left: -200px;
+  }
+
+  .land-3 .img-right {
+    margin-top: 180px;
+    margin-right: -200px;
+  }
+
+  .text-header-sc {
+    font-size: 150px;
+    margin-top: -100px;
+  }
+
+  .text-header-q {
+    font-size: 50px;
+    margin-top: -120px;
+  }
+
+  .img-btn,
+  .img-btn-a,
+  .img-btn-b {
+    width: 50%;
+  }
+
+  /* Land-4 */
+  .land-4 .img-left {
+    margin-left: -220px;
+    margin-top: 50px;
+  }
+
+  .land-4 .img-auto {
+    margin-top: 100px;
+  }
+
+  .land-4 .img-right {
+    margin-right: -220px;
+    margin-top: 150px;
+  }
+
+  .land-4 .header-p {
+    font-size: 16px;
+  }
+  .land-4 .header {
+    font-size: 108px;
+  }
+  .land-4 .text-right {
+    margin-top: -190px;
+    margin-right: -30px;
+  }
+  .land-4 .text-left {
+    font-size: 50px;
+    margin-top: -139px;
+  }
+
+  .land-4 .text-header-wr {
+    font-size: 150px;
+    margin-top: -100px;
+  }
+
+  /* Land5 */
+  .land-5 .jumbotron {
+    margin-top: 150px;
+    height: 380px;
+  }
+
+  .land-5 .img-left {
+    margin-top: 0px;
+    margin-left: -200px;
+  }
+
+  .land-5 .img-right {
+    margin-top: 80px;
+    margin-right: -200px;
+  }
+
+  /* Land6 */
+  .land-6 .jumbotron {
+    margin-top: 380px;
+    height: 370px;
+  }
+
+  .btn-btn {
+    width: 28rem;
+    margin-bottom: 0px;
+  }
+
+  .btn-1 strong {
+    padding-left: 230px;
+  }
+
+  .btn-2 strong {
+    padding-left: 295px;
+  }
+
+  .btn-2 {
+    margin-left: -10px !important;
+  }
+
+  .btn-btn-2,
+  .btn-btn-1 {
+    width: 11rem;
+    height: 70px;
+    margin-left: 0px;
+  }
+
+  .land-7 p {
+    margin-left: 0px;
+  }
+}
